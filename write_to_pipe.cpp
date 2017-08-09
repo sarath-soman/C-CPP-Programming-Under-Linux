@@ -15,5 +15,4 @@ int main()
     fprintf(fp, "Ss\n");
 
     pclose(fp);
-    return 0;
 }
