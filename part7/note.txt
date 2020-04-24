@@ -1,0 +1,2 @@
+Set environment variable LD_LIBRARY_PATH to pwd ('.') to link libAdd.so in part5 without fully qualified path (./ can be removed)
+export LD_LIBRARY_PATH=".:$LD_LIBRARY_PATH";
