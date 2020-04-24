@@ -1,0 +1,20 @@
+//
+// FUPPER2.CPP
+//
+#INCLUDE <STDIO.H>
+#INCLUDE <CTYPE.H>
+
+INT MAIN()
+{
+
+ INT C;
+
+ WHILE ( ( C = GETCHAR() ) != EOF )
+           PUTCHAR(TOUPPER(C));
+
+ RETURN 0;
+
+}
+
+//USAGE
+//./FUPPER < FILE > OUTFILE
