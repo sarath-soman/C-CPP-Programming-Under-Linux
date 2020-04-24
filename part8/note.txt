@@ -1,0 +1,16 @@
+In part5 run the command
+`ldd libAdd.so` to find the library dependencies
+
+//In his blog the output is expected as 
+[sandhya@localhost shared]$ ldd libAdd.so
+linux-gate.so.1 => (0x00110000)
+libstdc++.so.6 => /usr/lib/libstdc++.so.6 (0x0015e000)
+libm.so.6 => /lib/libm.so.6 (0x00250000)
+libgcc_s.so.1 => /lib/libgcc_s.so.1 (0x00113000)
+libc.so.6 => /lib/libc.so.6 (0x00279000)
+/lib/ld-linux.so.2 (0x0013b000)
+[sandhya@localhost shared]$ 
+
+But I'm getting the following
+	statically linked
+
