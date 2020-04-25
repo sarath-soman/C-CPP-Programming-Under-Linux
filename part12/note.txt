@@ -1,0 +1,2 @@
+TODO: Learn how to compile in x64 arch.
+//Failed to successfully run the program
