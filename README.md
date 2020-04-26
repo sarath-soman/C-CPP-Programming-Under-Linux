@@ -15,7 +15,7 @@ The focus of the entries in this section is on the following
 * File IO using open, read, write, close paradigm.
     * Along with fopen(), fread(), fwrite() and fclose() system call abstractions open(), read(), write() and close() is discussed.
 
-**Note:** Selfmodifying code in part12 was not comilable in 64 bit arch (took the objdump of 64bit instructions and replaced).
+**Note:** Selfmodifying code in part 12 was not compilable in 64 bit arch (took the objdump of 64bit instructions and replaced).
 TCP/IP programming section is showing an incorrect program (pointing to previous blog entry program) and hence excluded in summary.
 
 ### Series Coverage
