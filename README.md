@@ -13,7 +13,7 @@ The author then starts focusing on programs accepting commandline arguments, pri
 The focus of the entries in this section is on the following
 * Starting and interacting with a subprocess using system() and pipe (popen() - file pointer technique)
 * File IO using open, read, write, close paradigm.
-..* along with fopen(), fread(), fwrite() and fclose() system call abstractions open(), read(), write() and close() is discussed.
+    * Along with fopen(), fread(), fwrite() and fclose() system call abstractions open(), read(), write() and close() is discussed.
 
 **Note:** Selfmodifying code in part12 was not comilable in 64 bit arch (took the objdump of 64bit instructions and replaced).
 TCP/IP programming section is showing an incorrect program (pointing to previous blog entry program) and hence excluded in summary.
