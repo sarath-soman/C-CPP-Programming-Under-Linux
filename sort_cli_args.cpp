@@ -1,5 +1,4 @@
 #include<iostream>
-#include<stdlib.h>
 
 template<class T>
 void sort(int length, T *arr) {
@@ -47,7 +46,7 @@ int main(int argc, char **argv) {
     std::cout << "Numbers" <<std::endl;
     int *nums = new int[argc - 1];
     for(int i = 1; i < argc; i++) {
-        nums[i - 1] = atoi(argv[i]);
+        nums[i - 1] = std::stoi(argv[i]);
         std::cout << nums[i - 1] <<std::endl;
     }
 
